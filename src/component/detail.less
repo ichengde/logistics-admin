@@ -1,0 +1,67 @@
+.center {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background: #fff;
+}
+
+.font-left {
+  text-align: left;
+}
+
+@grid-width: 70px;
+@grid-right: 10px;
+
+.print-table {
+  font-weight: 1000;
+  font-family: 'Microsoft YaHei' !important;
+  width: 95vw;
+
+  tbody > tr > td {
+    padding: 0px;
+    font-family: 'Microsoft YaHei' !important;
+  }
+}
+
+.the-detail {
+  height: 25vh;
+  display: flex;
+}
+
+.table-body {
+  display: flex;
+  flex-direction: column;
+
+  .table-body-item {
+    display: flex;
+    flex-direction: row;
+
+    .table-body-item-td {
+      width: @grid-width;
+      margin-right: @grid-right;
+    }
+  }
+}
+
+.td {
+  border: solid #333;
+  border-width: 0px 1px 1px 0px;
+  padding: 2px;
+}
+
+.table {
+  border: solid #333;
+  border-width: 1px 0px 0px 1px;
+}
+
+.no-border-table {
+  border: none;
+
+  .td {
+    border: none;
+  }
+}
+
+.tdNoWrap {
+  white-space: nowrap;
+}
