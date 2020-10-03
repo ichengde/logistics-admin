@@ -19,11 +19,11 @@ export default (props) => {
     path: '/entering',
     name: '录入'
   },
-/*   {
+  {
     key: '3',
-    path: '/statistics',
-    name: '统计'
-  },
+    path: '/advert',
+    name: '广告'
+  },/* 
   {
     key: '4',
     path: '/setting',

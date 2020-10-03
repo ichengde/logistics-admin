@@ -24,10 +24,9 @@ export default defineConfig({
         { path: '/list', component: '@/pages/list' },
         { path: '/entering', component: '@/pages/editing' },
         { path: '/editing/:id', component: '@/pages/editing' },
+        { path: '/advert', component: '@/pages/advert' },
       ],
-      wrappers: [
-        '@/wrappers/auth',
-      ],
+      wrappers: ['@/wrappers/auth'],
     },
   ],
 });
