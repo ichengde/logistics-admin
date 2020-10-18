@@ -29,4 +29,6 @@ export default defineConfig({
       wrappers: ['@/wrappers/auth'],
     },
   ],
+
+  copy: ['src/assets'],
 });
