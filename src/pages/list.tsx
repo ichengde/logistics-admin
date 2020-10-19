@@ -331,16 +331,19 @@ export default (props) => {
             key: 'currentAddress',
             dataIndex: 'currentAddress',
             title: '当前地址',
+            ellipsis: true,
           },
           {
             key: 'currentTime',
             dataIndex: 'currentTime',
             title: '更新时间',
+            ellipsis: true,
           },
           {
             key: 'remark',
             dataIndex: 'remark',
             title: '备注',
+            ellipsis: true,
           },
           {
             title: '操作',
